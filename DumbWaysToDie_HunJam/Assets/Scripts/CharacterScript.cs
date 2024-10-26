@@ -1,16 +1,20 @@
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
+using Math = Unity.Mathematics.Geometry.Math;
 
 public class CharacterScript : MonoBehaviour
 {
     private Vector2 RightSpeed = new Vector2(5, 0);
     private Vector2 LeftSpeed = new Vector2(-5, 0);
-
-    public Rigidbody2D CharacterRigidbody2D;
+    private Animator CharacterAnimator;
+    private Rigidbody2D CharacterRigidbody2D;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        CharacterAnimator = GetComponent<Animator>();
+        CharacterRigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -24,18 +28,25 @@ public class CharacterScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D))
         {
             CharacterRigidbody2D.linearVelocity = RightSpeed;
+            transform.rotation = new Quaternion(0,0,0f,0);
+            CharacterAnimator.SetBool("Walking",true);
+            
         }
         if (Input.GetKeyUp(KeyCode.D))
         {
             CharacterRigidbody2D.linearVelocity = new Vector2(0,0);
+            CharacterAnimator.SetBool("Walking",false);
         }
         if (Input.GetKeyDown(KeyCode.A))
         {
             CharacterRigidbody2D.linearVelocity = LeftSpeed;
+            transform.rotation = new Quaternion(0,180,0,0);
+            CharacterAnimator.SetBool("Walking",true);
         }
         if (Input.GetKeyUp(KeyCode.A))
         {
             CharacterRigidbody2D.linearVelocity = new Vector2(0,0);
+            CharacterAnimator.SetBool("Walking",false);
         }
     }
     public void Die()

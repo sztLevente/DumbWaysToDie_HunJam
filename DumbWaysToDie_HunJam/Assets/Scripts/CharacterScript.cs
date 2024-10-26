@@ -1,16 +1,18 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class CharacterScript : MonoBehaviour
+public class CharacterScript : MonoBehaviour, IGravity
 {
     private Vector2 RightSpeed = new Vector2(5, 0);
     private Vector2 LeftSpeed = new Vector2(-5, 0);
 
     public Rigidbody2D CharacterRigidbody2D;
+   
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        CharacterRigidbody2D.gravityScale = 0;
+        this.transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 
     // Update is called once per frame
@@ -41,5 +43,11 @@ public class CharacterScript : MonoBehaviour
     public void Die()
     {
         
+    }
+
+    public void Fly()
+    {
+        CharacterRigidbody2D.gravityScale = -1;
+        this.transform.rotation = Quaternion.Euler(180,0,0);
     }
 }

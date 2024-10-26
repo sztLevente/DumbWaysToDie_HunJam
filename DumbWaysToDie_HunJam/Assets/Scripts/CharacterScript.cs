@@ -3,10 +3,11 @@ using Unity.VisualScripting;
 using UnityEngine;
 using Math = Unity.Mathematics.Geometry.Math;
 
-public class CharacterScript : MonoBehaviour
+public class CharacterScript : MonoBehaviour, IGravity
 {
     private Vector2 RightSpeed = new Vector2(5, 0);
     private Vector2 LeftSpeed = new Vector2(-5, 0);
+
     private Animator CharacterAnimator;
     private Rigidbody2D CharacterRigidbody2D;
     
@@ -15,8 +16,9 @@ public class CharacterScript : MonoBehaviour
     {
         CharacterAnimator = GetComponent<Animator>();
         CharacterRigidbody2D = GetComponent<Rigidbody2D>();
+        CharacterRigidbody2D.gravityScale = 0;
+        this.transform.rotation = Quaternion.Euler(0, 0, 0);
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -52,5 +54,11 @@ public class CharacterScript : MonoBehaviour
     public void Die()
     {
         
+    }
+
+    public void Fly()
+    {
+        CharacterRigidbody2D.gravityScale = -1;
+        this.transform.rotation = Quaternion.Euler(180,0,0);
     }
 }

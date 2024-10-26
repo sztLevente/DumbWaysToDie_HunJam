@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kari_4sprites (2)_0: -5321500090543076423
+      Kari_4sprites (2)_1: 4536631683603175649
+      Kari_4sprites (2)_2: -7957960577206166039
+      Kari_4sprites (2)_3: -3387765661360645261
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

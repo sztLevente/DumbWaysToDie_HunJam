@@ -10,14 +10,14 @@ public class CharacterScript : MonoBehaviour, IGravity
 
     private Animator CharacterAnimator;
     private Rigidbody2D CharacterRigidbody2D;
-    
+
+    private bool flying = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         CharacterAnimator = GetComponent<Animator>();
         CharacterRigidbody2D = GetComponent<Rigidbody2D>();
         CharacterRigidbody2D.gravityScale = 0;
-        this.transform.rotation = Quaternion.Euler(0, 0, 0);
     }
     // Update is called once per frame
     void Update()
@@ -30,24 +30,36 @@ public class CharacterScript : MonoBehaviour, IGravity
         if (Input.GetKeyDown(KeyCode.D))
         {
             CharacterRigidbody2D.linearVelocity = RightSpeed;
-            transform.rotation = new Quaternion(0,0,0f,0);
+            if (flying)
+            {
+                transform.rotation = Quaternion.Euler(180,0,0);
+            }
+            else {
+                 transform.rotation = new Quaternion(0,0,0f,0);
+            }
             CharacterAnimator.SetBool("Walking",true);
             
         }
         if (Input.GetKeyUp(KeyCode.D))
         {
-            CharacterRigidbody2D.linearVelocity = new Vector2(0,0);
+            CharacterRigidbody2D.linearVelocity = new Vector3(0,0,-1);
             CharacterAnimator.SetBool("Walking",false);
         }
         if (Input.GetKeyDown(KeyCode.A))
         {
             CharacterRigidbody2D.linearVelocity = LeftSpeed;
-            transform.rotation = new Quaternion(0,180,0,0);
+            if (flying)
+            {
+                transform.rotation = Quaternion.Euler(180,180,0);
+            }
+            else {
+                transform.rotation = new Quaternion(0,180,0,0);
+            }
             CharacterAnimator.SetBool("Walking",true);
         }
         if (Input.GetKeyUp(KeyCode.A))
         {
-            CharacterRigidbody2D.linearVelocity = new Vector2(0,0);
+            CharacterRigidbody2D.linearVelocity = new Vector3(0,0,-1);
             CharacterAnimator.SetBool("Walking",false);
         }
     }
@@ -58,6 +70,7 @@ public class CharacterScript : MonoBehaviour, IGravity
 
     public void Fly()
     {
+        flying = true;
         CharacterRigidbody2D.gravityScale = -1;
         this.transform.rotation = Quaternion.Euler(180,0,0);
     }

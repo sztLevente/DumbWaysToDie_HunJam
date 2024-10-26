@@ -16,6 +16,11 @@ public class CharacterScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Move();
+    }
+
+    void Move()
+    {
         if (Input.GetKeyDown(KeyCode.D))
         {
             CharacterRigidbody2D.linearVelocity = RightSpeed;

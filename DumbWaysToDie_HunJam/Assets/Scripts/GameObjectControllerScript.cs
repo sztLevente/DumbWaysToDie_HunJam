@@ -15,6 +15,8 @@ public class GameObjectControllerScript : MonoBehaviour
         
     }
 
+    
+    // Ezzel toltjuk ujra a jatekot halalnal
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

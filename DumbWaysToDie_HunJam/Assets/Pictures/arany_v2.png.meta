@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      arany_v2_0: 1283379274189928983
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

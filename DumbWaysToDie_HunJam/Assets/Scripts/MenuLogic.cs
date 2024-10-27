@@ -7,4 +7,9 @@ public class MenuLogic : MonoBehaviour
     {
         SceneManager.LoadSceneAsync("mainScene");
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

@@ -15,7 +15,7 @@ public class Flame : MonoBehaviour
     }
     void Update()
     {
-        if (timer.time >= 9f)
+        if (timer.time >= 10.5f)
         {
             BoxBody.GetComponent<Collider2D>().enabled = true;
             renderer.enabled = true;

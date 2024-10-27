@@ -11,6 +11,7 @@ public class CharacterScript : MonoBehaviour, IGravity
 
     private Animator CharacterAnimator;
     private Rigidbody2D CharacterRigidbody2D;
+    public GameObjectControllerScript timer;
 
     private bool flying = false;
     private bool dead = false;
@@ -33,6 +34,10 @@ public class CharacterScript : MonoBehaviour, IGravity
     void Update()
     {
         Move();
+        if(timer.time >= 60f)
+        {
+            Die();
+        }
     }
 
     void Move()

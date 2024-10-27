@@ -18,6 +18,13 @@ public class CharacterScript : MonoBehaviour, IGravity
         CharacterAnimator = GetComponent<Animator>();
         CharacterRigidbody2D = GetComponent<Rigidbody2D>();
         CharacterRigidbody2D.gravityScale = 1;
+        CharacterRigidbody2D.sharedMaterial = new PhysicsMaterial2D() { friction = 0, bounciness = 0 };
+
+        // Perd�letre hat� s�rl�d�s kikapcsol�sa
+        CharacterRigidbody2D.angularDrag = 0f;
+
+        // Perd�let �s forg�s kikapcsol�sa
+        CharacterRigidbody2D.freezeRotation = true;
     }
     // Update is called once per frame
     void Update()

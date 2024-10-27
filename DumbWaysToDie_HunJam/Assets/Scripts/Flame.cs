@@ -1,18 +1,15 @@
 using UnityEngine;
-using UnityEngine.TextCore.Text;
 
-public class PoisionObject : MonoBehaviour
+public class Flame : MonoBehaviour
 {
-
-    public Rigidbody2D PoisonBody;
-    public CharacterScript character;
+    public Rigidbody2D BoxBody;
     public SpriteRenderer renderer;
+    public CharacterScript character;
+    private float timer = 8.0f;
 
-    private float timer = 3.0f;
-    
     void Start()
     {
-        PoisonBody.GetComponent<Collider2D>().enabled = false;
+        BoxBody.GetComponent<Collider2D>().enabled = false;
         renderer.enabled = false;
     }
     void Update()
@@ -20,13 +17,13 @@ public class PoisionObject : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer <= 0f)
         {
+            BoxBody.GetComponent<Collider2D>().enabled = true;
             renderer.enabled = true;
-            PoisonBody.GetComponent<Collider2D>().enabled = true;
         }
-        else 
+        else
         {
+            BoxBody.GetComponent<Collider2D>().enabled = false;
             renderer.enabled = false;
-            PoisonBody.GetComponent<Collider2D>().enabled = false;
         }
     }
 
@@ -35,9 +32,8 @@ public class PoisionObject : MonoBehaviour
         if (collision.gameObject.GetComponent<CharacterScript>() != null)
         {
             character.Die();
+            timer = 9.0f;
             character.transform.position = new Vector2(-9f, -1f);
-            timer = 4.0f;
         }
     }
 }
-

@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: c9f406a4d142ddf488c1a9a94640c523
+guid: 30c25d912af41624f9d9a4e475b7d955
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7848807653242706386
-    second: "lecs\xF6pp_0"
+      213: 1979239529630283305
+    second: Untitled_Artwork-11_0
   - first:
-      213: 8227051412168956559
-    second: "lecs\xF6pp_1"
+      213: -5425474700822549496
+    second: Untitled_Artwork-11_1
   - first:
-      213: -1502730771107482536
-    second: "lecs\xF6pp_2"
+      213: 4594581124191703736
+    second: Untitled_Artwork-11_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "lecs\xF6pp_0"
+      name: Untitled_Artwork-11_0
       rect:
         serializedVersion: 2
-        x: 344
-        y: 424
-        width: 192
-        height: 67
+        x: 340
+        y: 323
+        width: 44
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d916e1d9f09cec60800000000000000
-      internalID: 7848807653242706386
+      spriteID: 9263601addba77b10800000000000000
+      internalID: 1979239529630283305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "lecs\xF6pp_1"
+      name: Untitled_Artwork-11_1
       rect:
         serializedVersion: 2
-        x: 345
-        y: 371
-        width: 34
-        height: 54
+        x: 347
+        y: 330
+        width: 8
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8ad43babab5c2270800000000000000
-      internalID: 8227051412168956559
+      spriteID: 80c6a974187d4b4b0800000000000000
+      internalID: -5425474700822549496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "lecs\xF6pp_2"
+      name: Untitled_Artwork-11_2
       rect:
         serializedVersion: 2
-        x: 335
-        y: 320
-        width: 59
-        height: 52
+        x: 356
+        y: 334
+        width: 9
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 854f613535a352be0800000000000000
-      internalID: -1502730771107482536
+      spriteID: 8b25927703b33cf30800000000000000
+      internalID: 4594581124191703736
       vertices: []
       indices: 
       edges: []
@@ -197,10 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "lecs\xF6pp_0": 7848807653242706386
-      "lecs\xF6pp_1": 8227051412168956559
-      "lecs\xF6pp_2": -1502730771107482536
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

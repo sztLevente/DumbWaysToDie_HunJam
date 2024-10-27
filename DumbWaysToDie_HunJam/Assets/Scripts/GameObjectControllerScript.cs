@@ -21,6 +21,11 @@ public class GameObjectControllerScript : MonoBehaviour
         
     }
 
+    public void KillCharacter()
+    {
+        Character.gameObject.GetComponent<CharacterScript>().Die();
+    }
+
     public void SetGravityOff(bool state)
     {
         foreach (IGravity go in MiddleRoom.GetComponentsInChildren<IGravity>())

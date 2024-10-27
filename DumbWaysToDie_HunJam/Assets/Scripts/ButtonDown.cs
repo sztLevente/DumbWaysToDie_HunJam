@@ -3,7 +3,7 @@ using UnityEngine;
 public class ButtonDown : MonoBehaviour, IGravity
 {
     public GameObjectControllerScript GameObjectControllerScript;
-
+    public Animator pushAnim;
 
     public void SetFly(bool state)
     {
@@ -15,6 +15,7 @@ public class ButtonDown : MonoBehaviour, IGravity
         if (col.gameObject.name == "Character")
         {
             GameObjectControllerScript.SetGravityOff(false);
+            pushAnim.SetBool("pushed", true);
         }
     }
 

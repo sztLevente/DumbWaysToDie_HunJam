@@ -36,4 +36,18 @@ public class GameObjectControllerScript : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    public void LoadSecondFloor()
+    {
+        TopRoom.SetActive(false);
+        MiddleRoom.SetActive(true);
+        Character.transform.position = new Vector3(-9.2f, -2.276016f, -2f);
+    }
+
+    public void LoadThirdFloor()
+    {
+        MiddleRoom.SetActive(false);
+        BottomRoom.SetActive(true);
+        Character.transform.position = new Vector3(6.7f, -2.141264f, -2f);
+    }
 }

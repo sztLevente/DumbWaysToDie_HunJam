@@ -49,7 +49,7 @@ public class CharacterScript : MonoBehaviour, IGravity
         }
         if (Input.GetKeyUp(KeyCode.D))
         {
-            CharacterRigidbody2D.linearVelocity = new Vector3(0,0,-1);
+            CharacterRigidbody2D.linearVelocity = new Vector3(0,0,-2);
             CharacterAnimator.SetBool("Walking",false);
         }
         if (Input.GetKeyDown(KeyCode.A))
@@ -66,7 +66,7 @@ public class CharacterScript : MonoBehaviour, IGravity
         }
         if (Input.GetKeyUp(KeyCode.A))
         {
-            CharacterRigidbody2D.linearVelocity = new Vector3(0,0,-1);
+            CharacterRigidbody2D.linearVelocity = new Vector3(0,0,-2);
             CharacterAnimator.SetBool("Walking",false);
         }
     }

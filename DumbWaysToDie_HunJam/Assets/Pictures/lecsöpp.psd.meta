@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "lecs\xF6pp_0": 7848807653242706386
+      "lecs\xF6pp_1": 8227051412168956559
+      "lecs\xF6pp_2": -1502730771107482536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

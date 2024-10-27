@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kari_walk_0: -8522565524345264848
+      Kari_walk_1: -3412487615461484637
+      Kari_walk_2: -937446770505976849
+      Kari_walk_3: 7559319046236474579
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

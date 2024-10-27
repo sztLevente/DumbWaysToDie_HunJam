@@ -1,18 +1,21 @@
 using UnityEngine;
 
-public class ObstacleCode : MonoBehaviour, IGravity
+public class ButtonDown : MonoBehaviour, IGravity
 {
+    public GameObjectControllerScript GameObjectControllerScript;
+
+
     public void SetFly(bool state)
     {
-        if (state)
+       
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.name == "Character")
         {
-            this.GetComponent<Rigidbody2D>().gravityScale = -1;
+            GameObjectControllerScript.SetGravityOff(false);
         }
-        else
-        {
-            this.GetComponent<Rigidbody2D>().gravityScale = 1;
-        }
-        
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,6 +27,6 @@ public class ObstacleCode : MonoBehaviour, IGravity
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

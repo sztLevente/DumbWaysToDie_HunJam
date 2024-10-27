@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 9a36fddea09406045815b1771c24088f
+guid: 3bb195e6ba60bea43b4f914c0339cf55
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8421920354123014621
-    second: Kari_4sprites (1)_0
+      213: -8226437723852661927
+    second: "\xE1ram_0"
   - first:
-      213: 922171760628702286
-    second: Kari_4sprites (1)_1
+      213: -2071462428460852465
+    second: "\xE1ram_1"
   - first:
-      213: -555900240224956559
-    second: Kari_4sprites (1)_2
+      213: 8808450852176633902
+    second: "\xE1ram_2"
   - first:
-      213: 2185602893052136679
-    second: Kari_4sprites (1)_3
+      213: -2421614231254716947
+    second: "\xE1ram_3"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -93,19 +93,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Win64
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -135,89 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kari_4sprites (1)_0
+      name: "\xE1ram_0"
       rect:
         serializedVersion: 2
-        x: 86
-        y: 289
-        width: 103
-        height: 181
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 176
+        y: 416
+        width: 98
+        height: 352
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32e9dd52f045f1b80800000000000000
-      internalID: -8421920354123014621
+      spriteID: 95b93e6c972d5dd80800000000000000
+      internalID: -8226437723852661927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kari_4sprites (1)_1
+      name: "\xE1ram_1"
       rect:
         serializedVersion: 2
-        x: 321
-        y: 280
-        width: 124
-        height: 190
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 493
+        y: 411
+        width: 99
+        height: 357
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4c9b2694563ccc00800000000000000
-      internalID: 922171760628702286
+      spriteID: f0bd50a75efa043e0800000000000000
+      internalID: -2071462428460852465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kari_4sprites (1)_2
+      name: "\xE1ram_2"
       rect:
         serializedVersion: 2
-        x: 87
-        y: 29
-        width: 103
-        height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 176
+        y: 11
+        width: 127
+        height: 374
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17f46d24dab0948f0800000000000000
-      internalID: -555900240224956559
+      spriteID: e20a9718167ed3a70800000000000000
+      internalID: 8808450852176633902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kari_4sprites (1)_3
+      name: "\xE1ram_3"
       rect:
         serializedVersion: 2
-        x: 342
-        y: 38
-        width: 103
-        height: 175
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 484
+        y: 0
+        width: 174
+        height: 385
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ec407c5042d45e10800000000000000
-      internalID: 2185602893052136679
+      spriteID: ded280bdfa2b46ed0800000000000000
+      internalID: -2421614231254716947
       vertices: []
       indices: 
       edges: []
@@ -226,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d8d4aba85f825084aad2bdbeec6bc937
     internalID: 0
     vertices: []
     indices: 
@@ -236,10 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kari_4sprites (1)_0: -8421920354123014621
-      Kari_4sprites (1)_1: 922171760628702286
-      Kari_4sprites (1)_2: -555900240224956559
-      Kari_4sprites (1)_3: 2185602893052136679
+      "\xE1ram_0": -8226437723852661927
+      "\xE1ram_1": -2071462428460852465
+      "\xE1ram_2": 8808450852176633902
+      "\xE1ram_3": -2421614231254716947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

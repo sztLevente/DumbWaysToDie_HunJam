@@ -21,13 +21,13 @@ public class GameObjectControllerScript : MonoBehaviour
         
     }
 
-    public void SetGravityOff()
+    public void SetGravityOff(bool state)
     {
         foreach (IGravity go in MiddleRoom.GetComponentsInChildren<IGravity>())
         {
-            go.Fly();
+            go.SetFly(state);
         }
-        Character.GetComponent<IGravity>().Fly();
+        Character.GetComponent<IGravity>().SetFly(state);
     }
 
 

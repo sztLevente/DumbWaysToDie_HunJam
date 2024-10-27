@@ -10,7 +10,13 @@ public class CharacterScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        CharacterRigidbody2D.sharedMaterial = new PhysicsMaterial2D() { friction = 0, bounciness = 0 };
+
+        // Perdületre ható súrlódás kikapcsolása
+        CharacterRigidbody2D.angularDrag = 0f;
+
+        // Perdület és forgás kikapcsolása
+        CharacterRigidbody2D.freezeRotation = true;
     }
 
     // Update is called once per frame

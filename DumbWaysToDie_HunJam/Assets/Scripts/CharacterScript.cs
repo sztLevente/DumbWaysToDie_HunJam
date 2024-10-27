@@ -2,6 +2,7 @@ using System;
 using Unity.VisualScripting;
 using UnityEngine;
 using Math = Unity.Mathematics.Geometry.Math;
+using UnityEngine.SceneManagement;
 
 public class CharacterScript : MonoBehaviour, IGravity
 {
@@ -12,6 +13,8 @@ public class CharacterScript : MonoBehaviour, IGravity
     private Rigidbody2D CharacterRigidbody2D;
 
     private bool flying = false;
+    private bool dead = false;
+    private float timetilldead;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -34,45 +37,52 @@ public class CharacterScript : MonoBehaviour, IGravity
 
     void Move()
     {
-        if (Input.GetKeyDown(KeyCode.D))
+        if (!dead)
         {
-            CharacterRigidbody2D.linearVelocity = RightSpeed;
-            CharacterAnimator.SetBool("Walking",true);
-            if (flying)
+            if (Input.GetKeyDown(KeyCode.D))
             {
-                transform.rotation = Quaternion.Euler(180,0,0);
+                CharacterRigidbody2D.linearVelocity = RightSpeed;
+                CharacterAnimator.SetBool("Walking", true);
+                if (flying)
+                {
+                    transform.rotation = Quaternion.Euler(180, 0, 0);
+                }
+                else
+                {
+                    transform.rotation = new Quaternion(0, 0, 0f, 0);
+                }
+
             }
-            else {
-                 transform.rotation = new Quaternion(0,0,0f,0);
-            }
-            
-        }
-        if (Input.GetKeyUp(KeyCode.D))
-        {
-            CharacterRigidbody2D.linearVelocity = new Vector3(0,0,-1);
-            CharacterAnimator.SetBool("Walking",false);
-        }
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            CharacterRigidbody2D.linearVelocity = LeftSpeed;
-            CharacterAnimator.SetBool("Walking",true);
-            if (flying)
+            if (Input.GetKeyUp(KeyCode.D))
             {
-                transform.rotation = Quaternion.Euler(180,180,0);
+                CharacterRigidbody2D.linearVelocity = new Vector3(0, 0, -1);
+                CharacterAnimator.SetBool("Walking", false);
             }
-            else {
-                transform.rotation = new Quaternion(0,180,0,0);
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                CharacterRigidbody2D.linearVelocity = LeftSpeed;
+                CharacterAnimator.SetBool("Walking", true);
+                if (flying)
+                {
+                    transform.rotation = Quaternion.Euler(180, 180, 0);
+                }
+                else
+                {
+                    transform.rotation = new Quaternion(0, 180, 0, 0);
+                }
             }
-        }
-        if (Input.GetKeyUp(KeyCode.A))
-        {
-            CharacterRigidbody2D.linearVelocity = new Vector3(0,0,-1);
-            CharacterAnimator.SetBool("Walking",false);
+            if (Input.GetKeyUp(KeyCode.A))
+            {
+                CharacterRigidbody2D.linearVelocity = new Vector3(0, 0, -1);
+                CharacterAnimator.SetBool("Walking", false);
+            }
         }
     }
     public void Die()
     {
-        
+        dead = true;
+        CharacterAnimator.transform.Rotate(0, 0, 90);
+        SceneManager.LoadSceneAsync("Clock");
     }
 
     

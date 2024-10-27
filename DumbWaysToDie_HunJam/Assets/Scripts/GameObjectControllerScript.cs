@@ -8,17 +8,18 @@ public class GameObjectControllerScript : MonoBehaviour
     public GameObject TopRoom;
     public GameObject MiddleRoom;
     public GameObject Character;
+    public float time;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        time = 0.0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        time+= Time.deltaTime;
     }
 
     public void SetGravityOff(bool state)

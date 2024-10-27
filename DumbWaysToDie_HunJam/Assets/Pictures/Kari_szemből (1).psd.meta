@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Kari_szemb\u0151l (1)_0": 7343908225901685830
+      "Kari_szemb\u0151l (1)_1": 4190688645464828540
+      "Kari_szemb\u0151l (1)_2": 320357769951315200
+      "Kari_szemb\u0151l (1)_3": -7422647092458864012
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

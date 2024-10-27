@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 7ab2bdb5accbe74489fbeec14bfe0f70
+guid: 7048c9716205a4f4391bf4c3c9f565da
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5500740856720010037
-    second: Kari_idle_0
-  - first:
-      213: -4285225637836356576
-    second: Kari_idle_1
-  - first:
-      213: -4651139407781668715
-    second: Kari_idle_2
-  - first:
-      213: 8693117215704989560
-    second: Kari_idle_3
+      213: 7236515546126862522
+    second: end screen 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kari_idle_0
+      name: end screen 1_0
       rect:
         serializedVersion: 2
-        x: 76
-        y: 276
-        width: 103
-        height: 202
+        x: 0
+        y: 0
+        width: 2526
+        height: 1148
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,74 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53b264e3aae865c40800000000000000
-      internalID: 5500740856720010037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kari_idle_1
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 276
-        width: 117
-        height: 205
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0240e5a8cf1d784c0800000000000000
-      internalID: -4285225637836356576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kari_idle_2
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 20
-        width: 103
-        height: 202
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5985a56f955d37fb0800000000000000
-      internalID: -4651139407781668715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kari_idle_3
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 20
-        width: 117
-        height: 205
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 87fbde0bc0824a870800000000000000
-      internalID: 8693117215704989560
+      spriteID: ab8cb7a6c844d6460800000000000000
+      internalID: 7236515546126862522
       vertices: []
       indices: 
       edges: []
@@ -209,11 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Kari_idle_0: 5500740856720010037
-      Kari_idle_1: -4285225637836356576
-      Kari_idle_2: -4651139407781668715
-      Kari_idle_3: 8693117215704989560
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -12,12 +12,15 @@ public class CharacterScript : MonoBehaviour, IGravity
     private Rigidbody2D CharacterRigidbody2D;
 
     private bool flying = false;
+    private bool upsideDown = false;
+    private float flyTime = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         CharacterAnimator = GetComponent<Animator>();
         CharacterRigidbody2D = GetComponent<Rigidbody2D>();
         CharacterRigidbody2D.gravityScale = 1;
+
         CharacterRigidbody2D.sharedMaterial = new PhysicsMaterial2D() { friction = 0, bounciness = 0 };
 
         // Perd�letre hat� s�rl�d�s kikapcsol�sa
@@ -25,11 +28,29 @@ public class CharacterScript : MonoBehaviour, IGravity
 
         // Perd�let �s forg�s kikapcsol�sa
         CharacterRigidbody2D.freezeRotation = true;
+
+        CharacterRigidbody2D.linearVelocity = new Vector3(0, 0, 0);
     }
     // Update is called once per frame
     void Update()
     {
-        Move();
+       if(flying)
+       {
+            //CharacterRigidbody2D.linearVelocity = new Vector3(0, 0, -1);
+            flyTime += Time.deltaTime;
+            if(flyTime >= 0.8)
+            {
+                flying = false;
+                upsideDown = !upsideDown;
+                flyTime = 0;
+            }
+       }
+       else
+       {
+            Move();
+       }
+     
+       
     }
 
     void Move()
@@ -38,7 +59,7 @@ public class CharacterScript : MonoBehaviour, IGravity
         {
             CharacterRigidbody2D.linearVelocity = RightSpeed;
             CharacterAnimator.SetBool("Walking",true);
-            if (flying)
+            if (upsideDown)
             {
                 transform.rotation = Quaternion.Euler(180,0,0);
             }
@@ -56,7 +77,7 @@ public class CharacterScript : MonoBehaviour, IGravity
         {
             CharacterRigidbody2D.linearVelocity = LeftSpeed;
             CharacterAnimator.SetBool("Walking",true);
-            if (flying)
+            if (upsideDown)
             {
                 transform.rotation = Quaternion.Euler(180,180,0);
             }
@@ -72,7 +93,7 @@ public class CharacterScript : MonoBehaviour, IGravity
     }
     public void Die()
     {
-        
+        Debug.Log("I died");
     }
 
     
@@ -82,12 +103,14 @@ public class CharacterScript : MonoBehaviour, IGravity
         if (state)
         {
             flying = true;
-            CharacterRigidbody2D.gravityScale = -1;
+            CharacterRigidbody2D.linearVelocity = new Vector3(0, 0, 0);
+            CharacterRigidbody2D.gravityScale = -1.5f;
         }
         else
         {
-            flying = false;
-            CharacterRigidbody2D.gravityScale = 1;
+            flying = true;
+            CharacterRigidbody2D.linearVelocity = new Vector3(0, 0, 0);
+            CharacterRigidbody2D.gravityScale = 1.5f;
         }
     }
 }

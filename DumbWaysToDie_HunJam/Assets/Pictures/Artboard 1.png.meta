@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 3bb195e6ba60bea43b4f914c0339cf55
+guid: f26705cc40dadcc42be4cd13e7ee63be
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8226437723852661927
-    second: "\xE1ram_0"
-  - first:
-      213: -2071462428460852465
-    second: "\xE1ram_1"
-  - first:
-      213: 8808450852176633902
-    second: "\xE1ram_2"
-  - first:
-      213: -2421614231254716947
-    second: "\xE1ram_3"
+      213: 7025651857757288288
+    second: Artboard 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,106 +96,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\xE1ram_0"
+      name: Artboard 1_0
       rect:
         serializedVersion: 2
-        x: 176
-        y: 416
-        width: 98
-        height: 352
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 95b93e6c972d5dd80800000000000000
-      internalID: -8226437723852661927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\xE1ram_1"
-      rect:
-        serializedVersion: 2
-        x: 493
-        y: 411
-        width: 99
-        height: 357
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f0bd50a75efa043e0800000000000000
-      internalID: -2071462428460852465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\xE1ram_2"
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 11
-        width: 127
-        height: 374
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e20a9718167ed3a70800000000000000
-      internalID: 8808450852176633902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\xE1ram_3"
-      rect:
-        serializedVersion: 2
-        x: 484
+        x: 0
         y: 0
-        width: 174
-        height: 385
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        width: 2526
+        height: 1148
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ded280bdfa2b46ed0800000000000000
-      internalID: -2421614231254716947
+      spriteID: 067bf212421208160800000000000000
+      internalID: 7025651857757288288
       vertices: []
       indices: 
       edges: []
@@ -213,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d8d4aba85f825084aad2bdbeec6bc937
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -222,11 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "\xE1ram_0": -8226437723852661927
-      "\xE1ram_1": -2071462428460852465
-      "\xE1ram_2": 8808450852176633902
-      "\xE1ram_3": -2421614231254716947
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

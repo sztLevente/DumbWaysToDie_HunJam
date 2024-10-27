@@ -23,7 +23,7 @@ public class Tire : MonoBehaviour, IGravity
             if (transform.rotation.z < 0.45)
             {
                    
-                transform.Rotate(new Vector3(0, 0, 15f) * Time.deltaTime);
+                transform.Rotate(new Vector3(0, 0, 20f) * Time.deltaTime);
             }
             
         }

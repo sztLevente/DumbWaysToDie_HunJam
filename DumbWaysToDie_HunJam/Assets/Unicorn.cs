@@ -1,4 +1,4 @@
-using UnityEditor.Animations;
+//using UnityEditor.Animations;
 using UnityEngine;
 
 public class Unicorn : MonoBehaviour
@@ -7,8 +7,8 @@ public class Unicorn : MonoBehaviour
 
     public Sprite ActionSprite;
     public Sprite SleepSprite;
-    public AnimatorController Action;
-    public AnimatorController SleepAnimation;
+    /*public AnimatorController Action;
+    public AnimatorController SleepAnimation;*/
     private float timeSinceStart = 0;
     public Animator animator;
     private bool killer = false;
@@ -26,7 +26,7 @@ public class Unicorn : MonoBehaviour
     void Start()
     {
         GetComponent<SpriteRenderer>().sprite = ActionSprite;
-        animator.runtimeAnimatorController = Action;
+        //animator.runtimeAnimatorController = Action;
         killer = true;
         
        
@@ -45,7 +45,7 @@ public class Unicorn : MonoBehaviour
         if (timeSinceStart >= 10.0f)
         {
             GetComponent<SpriteRenderer>().sprite = SleepSprite;
-            animator.runtimeAnimatorController = SleepAnimation;
+            //animator.runtimeAnimatorController = SleepAnimation;
             killer = false;
         }
 

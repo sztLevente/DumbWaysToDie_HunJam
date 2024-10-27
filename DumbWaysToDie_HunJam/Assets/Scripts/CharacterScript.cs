@@ -17,7 +17,7 @@ public class CharacterScript : MonoBehaviour, IGravity
     {
         CharacterAnimator = GetComponent<Animator>();
         CharacterRigidbody2D = GetComponent<Rigidbody2D>();
-        CharacterRigidbody2D.gravityScale = 0;
+        CharacterRigidbody2D.gravityScale = 1;
     }
     // Update is called once per frame
     void Update()
@@ -68,10 +68,19 @@ public class CharacterScript : MonoBehaviour, IGravity
         
     }
 
-    public void Fly()
+    
+
+    public void SetFly(bool state)
     {
-        flying = true;
-        CharacterRigidbody2D.gravityScale = -1;
-        this.transform.rotation = Quaternion.Euler(180,0,0);
+        if (state)
+        {
+            flying = true;
+            CharacterRigidbody2D.gravityScale = -1;
+        }
+        else
+        {
+            flying = false;
+            CharacterRigidbody2D.gravityScale = 1;
+        }
     }
 }

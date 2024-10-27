@@ -23,7 +23,7 @@ public class GameObjectControllerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        LoadElevator();
+        //LoadElevator();
     }
 
     public void KillCharacter()
@@ -51,7 +51,7 @@ public class GameObjectControllerScript : MonoBehaviour
     {
         TopRoom.SetActive(false);
         MiddleRoom.SetActive(true);
-        Character.transform.position = new Vector3(-10f, 2, -2f);
+        Character.transform.position = new Vector3(-10f, -2.141264f, -2f);
     }
 
     public void LoadThirdFloor()

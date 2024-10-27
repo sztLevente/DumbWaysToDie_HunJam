@@ -23,7 +23,7 @@ public class ColliderScript : MonoBehaviour
         {
             //right.SetBool("Start",true);
             //left.SetBool("Start",true);
-            objectController.LoadNext();
+            objectController.LoadSecondFloor();
             
         }
     }

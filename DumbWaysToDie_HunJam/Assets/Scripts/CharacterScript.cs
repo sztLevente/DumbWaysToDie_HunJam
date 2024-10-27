@@ -30,7 +30,7 @@ public class CharacterScript : MonoBehaviour, IGravity
         // Perd�let �s forg�s kikapcsol�sa
         CharacterRigidbody2D.freezeRotation = true;
 
-        CharacterRigidbody2D.linearVelocity = new Vector3(0, 0, 0);
+        //CharacterRigidbody2D.linearVelocity = new Vector3(0, 0, 0);
     }
     // Update is called once per frame
     void Update()

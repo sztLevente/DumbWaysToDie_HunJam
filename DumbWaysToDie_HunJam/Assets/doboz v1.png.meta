@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      doboz v1_0: 6969077741685570155
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: a5d4fb955929de3458f34997998efb65
+guid: 8c430186a4cda054fa76db09639db0b5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3500270397253904119
-    second: "Kari_szemb\u0151l_0"
+      213: -8522565524345264848
+    second: Kari_walk_0
   - first:
-      213: 6406200501221535079
-    second: "Kari_szemb\u0151l_1"
+      213: -3412487615461484637
+    second: Kari_walk_1
   - first:
-      213: -1036574643660790668
-    second: "Kari_szemb\u0151l_2"
+      213: -937446770505976849
+    second: Kari_walk_2
   - first:
-      213: -856965655104071692
-    second: "Kari_szemb\u0151l_3"
+      213: 7559319046236474579
+    second: Kari_walk_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Kari_szemb\u0151l_0"
+      name: Kari_walk_0
       rect:
         serializedVersion: 2
-        x: 65
-        y: 512
-        width: 428
-        height: 432
+        x: 55
+        y: 267
+        width: 139
+        height: 213
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9099dd17e9a8c6fc0800000000000000
-      internalID: -3500270397253904119
+      spriteID: 035e8626fc3c9b980800000000000000
+      internalID: -8522565524345264848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Kari_szemb\u0151l_1"
+      name: Kari_walk_1
       rect:
         serializedVersion: 2
-        x: 577
-        y: 512
-        width: 428
-        height: 432
+        x: 328
+        y: 270
+        width: 119
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76d2d331a6567e850800000000000000
-      internalID: 6406200501221535079
+      spriteID: 3a79ff7089864a0d0800000000000000
+      internalID: -3412487615461484637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Kari_szemb\u0151l_2"
+      name: Kari_walk_2
       rect:
         serializedVersion: 2
-        x: 65
-        y: 1
-        width: 428
-        height: 432
+        x: 67
+        y: 14
+        width: 141
+        height: 211
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 474eb658ad85d91f0800000000000000
-      internalID: -1036574643660790668
+      spriteID: fe3772801258df2f0800000000000000
+      internalID: -937446770505976849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Kari_szemb\u0151l_3"
+      name: Kari_walk_3
       rect:
         serializedVersion: 2
-        x: 577
-        y: 1
-        width: 428
-        height: 438
+        x: 317
+        y: 17
+        width: 128
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,8 +190,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f7dfcee6427b14f0800000000000000
-      internalID: -856965655104071692
+      spriteID: 3dc05ce1f9818e860800000000000000
+      internalID: 7559319046236474579
       vertices: []
       indices: 
       edges: []

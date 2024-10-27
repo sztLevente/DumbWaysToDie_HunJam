@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Flame : MonoBehaviour
@@ -5,7 +6,7 @@ public class Flame : MonoBehaviour
     public Rigidbody2D BoxBody;
     public SpriteRenderer renderer;
     public CharacterScript character;
-    private float timer = 8.0f;
+    public GameObjectControllerScript timer;
 
     void Start()
     {
@@ -14,8 +15,7 @@ public class Flame : MonoBehaviour
     }
     void Update()
     {
-        timer -= Time.deltaTime;
-        if (timer <= 0f)
+        if (timer.time >= 10.5f)
         {
             BoxBody.GetComponent<Collider2D>().enabled = true;
             renderer.enabled = true;
@@ -32,8 +32,11 @@ public class Flame : MonoBehaviour
         if (collision.gameObject.GetComponent<CharacterScript>() != null)
         {
             character.Die();
-            timer = 9.0f;
-            character.transform.position = new Vector2(-9f, -1f);
         }
+        if (collision.gameObject.GetComponent<BoxScript>() != null)
+        {
+            Destroy(collision.gameObject);
+        }
+
     }
 }

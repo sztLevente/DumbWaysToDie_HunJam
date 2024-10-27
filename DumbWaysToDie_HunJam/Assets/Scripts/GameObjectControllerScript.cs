@@ -11,19 +11,20 @@ public class GameObjectControllerScript : MonoBehaviour
     public GameObject Elevator;
     public GameObject CurrentRoom;
     public GameObject Character;
+    public float time;
 
     
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        CurrentRoom = TopRoom;
+        time = 0.0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //LoadElevator();
+        time+= Time.deltaTime;
     }
 
     public void KillCharacter()

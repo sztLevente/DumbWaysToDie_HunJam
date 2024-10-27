@@ -4,7 +4,7 @@ using UnityEngine.TextCore.Text;
 public class BoxScript : MonoBehaviour
 {
     public Rigidbody2D BoxBody;
-    private float timer = 4.0f;
+    public GameObjectControllerScript timer;
 
     void Start()
     {
@@ -12,8 +12,7 @@ public class BoxScript : MonoBehaviour
     }
     void Update()
     {
-        timer -= Time.deltaTime;
-        if (timer <= 0f)
+        if (timer.time >= 5f)
         {
             BoxBody.gravityScale = 1.0f;
         }
@@ -25,9 +24,5 @@ public class BoxScript : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<Flame>() != null)
-        {
-            timer = 4.0f;
-        }
     }
 }

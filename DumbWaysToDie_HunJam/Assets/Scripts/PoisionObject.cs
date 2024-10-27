@@ -7,8 +7,7 @@ public class PoisionObject : MonoBehaviour
     public Rigidbody2D PoisonBody;
     public CharacterScript character;
     public SpriteRenderer renderer;
-
-    private float timer = 3.0f;
+    public GameObjectControllerScript timer;
     
     void Start()
     {
@@ -17,8 +16,8 @@ public class PoisionObject : MonoBehaviour
     }
     void Update()
     {
-        timer -= Time.deltaTime;
-        if (timer <= 0f)
+ 
+        if (timer.time >= 3f)
         {
             renderer.enabled = true;
             PoisonBody.GetComponent<Collider2D>().enabled = true;
@@ -36,7 +35,6 @@ public class PoisionObject : MonoBehaviour
         {
             character.Die();
             character.transform.position = new Vector2(-9f, -1f);
-            timer = 4.0f;
         }
     }
 }

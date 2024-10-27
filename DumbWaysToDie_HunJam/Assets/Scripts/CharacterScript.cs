@@ -17,6 +17,7 @@ public class CharacterScript : MonoBehaviour, IGravity
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        //flying = false;
         CharacterAnimator = GetComponent<Animator>();
         CharacterRigidbody2D = GetComponent<Rigidbody2D>();
         CharacterRigidbody2D.gravityScale = 1;

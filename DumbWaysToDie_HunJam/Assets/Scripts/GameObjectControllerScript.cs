@@ -18,12 +18,15 @@ public class GameObjectControllerScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
+        CurrentRoom = TopRoom;
         time = 0.0f;
     }
 
     // Update is called once per frame
     void Update()
     {
+        LoadElevator();
         time+= Time.deltaTime;
     }
 
@@ -77,6 +80,7 @@ public class GameObjectControllerScript : MonoBehaviour
             {
                 LoadThirdFloor();
             }
+            loaded = false;
         }
     }
 

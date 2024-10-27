@@ -21,8 +21,7 @@ public class ColliderMiddleScript : MonoBehaviour
         {
             //right.SetBool("Start",true);
             //left.SetBool("Start",true);
-            objectController.LoadThirdFloor();
-            
+            objectController.LoadNext();
         }
     }
 }

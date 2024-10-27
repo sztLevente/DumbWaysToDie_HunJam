@@ -5,6 +5,6 @@ public class MenuLogic : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadSceneAsync("SampleScene");
+        SceneManager.LoadSceneAsync("mainScene");
     }
 }

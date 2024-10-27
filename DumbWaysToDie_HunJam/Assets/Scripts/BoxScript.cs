@@ -19,7 +19,7 @@ public class BoxScript : MonoBehaviour
         }
         else
         {
-            BoxBody.transform.position = new Vector2(-1.43f, 6f);
+            BoxBody.transform.position = new Vector3(-1.43f, 6f,-1);
             BoxBody.gravityScale = 0.0f;
         }
     }

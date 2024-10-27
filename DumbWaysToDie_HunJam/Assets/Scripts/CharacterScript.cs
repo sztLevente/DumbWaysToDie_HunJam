@@ -21,7 +21,7 @@ public class CharacterScript : MonoBehaviour, IGravity
         CharacterRigidbody2D.sharedMaterial = new PhysicsMaterial2D() { friction = 0, bounciness = 0 };
 
         // Perd�letre hat� s�rl�d�s kikapcsol�sa
-        CharacterRigidbody2D.angularDrag = 0f;
+        CharacterRigidbody2D.angularDamping = 0f;
 
         // Perd�let �s forg�s kikapcsol�sa
         CharacterRigidbody2D.freezeRotation = true;

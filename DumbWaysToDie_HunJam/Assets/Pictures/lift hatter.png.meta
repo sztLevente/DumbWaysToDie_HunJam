@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lift hatter_0: 5286902483822519121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

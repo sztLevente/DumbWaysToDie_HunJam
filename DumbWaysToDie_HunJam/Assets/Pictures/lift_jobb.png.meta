@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 9a36fddea09406045815b1771c24088f
+guid: 429f8fef3b944d647bfa418cc4b28a71
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8421920354123014621
-    second: Kari_4sprites (1)_0
-  - first:
-      213: 922171760628702286
-    second: Kari_4sprites (1)_1
-  - first:
-      213: -555900240224956559
-    second: Kari_4sprites (1)_2
-  - first:
-      213: 2185602893052136679
-    second: Kari_4sprites (1)_3
+      213: -8921070661295336673
+    second: lift_jobb_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -135,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kari_4sprites (1)_0
+      name: lift_jobb_0
       rect:
         serializedVersion: 2
-        x: 86
-        y: 289
-        width: 103
-        height: 181
+        x: 0
+        y: 0
+        width: 139
+        height: 313
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,74 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32e9dd52f045f1b80800000000000000
-      internalID: -8421920354123014621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kari_4sprites (1)_1
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 280
-        width: 124
-        height: 190
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4c9b2694563ccc00800000000000000
-      internalID: 922171760628702286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kari_4sprites (1)_2
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 29
-        width: 103
-        height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17f46d24dab0948f0800000000000000
-      internalID: -555900240224956559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kari_4sprites (1)_3
-      rect:
-        serializedVersion: 2
-        x: 342
-        y: 38
-        width: 103
-        height: 175
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ec407c5042d45e10800000000000000
-      internalID: 2185602893052136679
+      spriteID: f131559df7df13480800000000000000
+      internalID: -8921070661295336673
       vertices: []
       indices: 
       edges: []
@@ -236,10 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kari_4sprites (1)_0: -8421920354123014621
-      Kari_4sprites (1)_1: 922171760628702286
-      Kari_4sprites (1)_2: -555900240224956559
-      Kari_4sprites (1)_3: 2185602893052136679
+      lift_jobb_0: -8921070661295336673
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

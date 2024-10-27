@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 61d97c792be09284c89efdc4cadad803
+guid: deb2c2369d0ceb545895d7128371c752
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1283379274189928983
-    second: arany_v2_0
+      213: -7651279306491703242
+    second: Unikornis_sleep (1)_0
+  - first:
+      213: -5657192370784019506
+    second: Unikornis_sleep (1)_1
+  - first:
+      213: -6117866273914239751
+    second: Unikornis_sleep (1)_2
+  - first:
+      213: 1272340490874920095
+    second: Unikornis_sleep (1)_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: arany_v2_0
+      name: Unikornis_sleep (1)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2526
-        height: 1148
+        x: 48
+        y: 448
+        width: 364
+        height: 291
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71a703676aa7fc110800000000000000
-      internalID: 1283379274189928983
+      spriteID: 630d34b420231d590800000000000000
+      internalID: -7651279306491703242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unikornis_sleep (1)_1
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 451
+        width: 345
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb5e59038d9d71b0800000000000000
+      internalID: -5657192370784019506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unikornis_sleep (1)_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 360
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4cff7a909f81ba0800000000000000
+      internalID: -6117866273914239751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unikornis_sleep (1)_3
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 51
+        width: 345
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c12ff6fe248a110800000000000000
+      internalID: 1272340490874920095
       vertices: []
       indices: 
       edges: []
@@ -161,7 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      arany_v2_0: 1283379274189928983
+      Unikornis_sleep (1)_0: -7651279306491703242
+      Unikornis_sleep (1)_1: -5657192370784019506
+      Unikornis_sleep (1)_2: -6117866273914239751
+      Unikornis_sleep (1)_3: 1272340490874920095
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

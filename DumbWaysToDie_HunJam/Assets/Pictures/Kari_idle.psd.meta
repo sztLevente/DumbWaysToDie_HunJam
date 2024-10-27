@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 9a36fddea09406045815b1771c24088f
+guid: fba44f41fc23531468841f9868dfa0db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8421920354123014621
-    second: Kari_4sprites (1)_0
+      213: 5500740856720010037
+    second: Kari_idle_0
   - first:
-      213: 922171760628702286
-    second: Kari_4sprites (1)_1
+      213: -4285225637836356576
+    second: Kari_idle_1
   - first:
-      213: -555900240224956559
-    second: Kari_4sprites (1)_2
+      213: -4651139407781668715
+    second: Kari_idle_2
   - first:
-      213: 2185602893052136679
-    second: Kari_4sprites (1)_3
+      213: 8693117215704989560
+    second: Kari_idle_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -135,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kari_4sprites (1)_0
+      name: Kari_idle_0
       rect:
         serializedVersion: 2
-        x: 86
-        y: 289
-        width: 103
-        height: 181
+        x: 79
+        y: 283
+        width: 93
+        height: 193
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32e9dd52f045f1b80800000000000000
-      internalID: -8421920354123014621
+      spriteID: 53b264e3aae865c40800000000000000
+      internalID: 5500740856720010037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kari_4sprites (1)_1
+      name: Kari_idle_1
       rect:
         serializedVersion: 2
-        x: 321
-        y: 280
-        width: 124
-        height: 190
+        x: 341
+        y: 281
+        width: 90
+        height: 194
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4c9b2694563ccc00800000000000000
-      internalID: 922171760628702286
+      spriteID: 0240e5a8cf1d784c0800000000000000
+      internalID: -4285225637836356576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kari_4sprites (1)_2
+      name: Kari_idle_2
       rect:
         serializedVersion: 2
-        x: 87
+        x: 79
         y: 29
-        width: 103
-        height: 184
+        width: 93
+        height: 193
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17f46d24dab0948f0800000000000000
-      internalID: -555900240224956559
+      spriteID: 5985a56f955d37fb0800000000000000
+      internalID: -4651139407781668715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kari_4sprites (1)_3
+      name: Kari_idle_3
       rect:
         serializedVersion: 2
-        x: 342
-        y: 38
-        width: 103
-        height: 175
+        x: 341
+        y: 28
+        width: 90
+        height: 194
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ec407c5042d45e10800000000000000
-      internalID: 2185602893052136679
+      spriteID: 87fbde0bc0824a870800000000000000
+      internalID: 8693117215704989560
       vertices: []
       indices: 
       edges: []
@@ -236,10 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kari_4sprites (1)_0: -8421920354123014621
-      Kari_4sprites (1)_1: 922171760628702286
-      Kari_4sprites (1)_2: -555900240224956559
-      Kari_4sprites (1)_3: 2185602893052136679
+      Kari_idle_0: 5500740856720010037
+      Kari_idle_1: -4285225637836356576
+      Kari_idle_2: -4651139407781668715
+      Kari_idle_3: 8693117215704989560
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

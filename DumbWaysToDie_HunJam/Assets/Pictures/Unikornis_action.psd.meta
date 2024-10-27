@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 286c023e39f4ac9449f76dc99d7d7d7b
+guid: 7125dfdb6ffec6d438c8f6f1467fc1af
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5321500090543076423
-    second: Kari_4sprites (2)_0
+      213: -4763675790410212932
+    second: Unikornis_action_0
   - first:
-      213: 4536631683603175649
-    second: Kari_4sprites (2)_1
+      213: -5283589623215623059
+    second: Unikornis_action_1
   - first:
-      213: -7957960577206166039
-    second: Kari_4sprites (2)_2
+      213: 6424949200150815356
+    second: Unikornis_action_2
   - first:
-      213: -3387765661360645261
-    second: Kari_4sprites (2)_3
+      213: 886058593522370080
+    second: Unikornis_action_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -93,6 +93,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -122,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kari_4sprites (2)_0
+      name: Unikornis_action_0
       rect:
         serializedVersion: 2
-        x: 86
-        y: 289
-        width: 103
-        height: 181
+        x: 42
+        y: 449
+        width: 333
+        height: 284
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9bb88f6bcdb3626b0800000000000000
-      internalID: -5321500090543076423
+      spriteID: cb9987f8b1604edb0800000000000000
+      internalID: -4763675790410212932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kari_4sprites (2)_1
+      name: Unikornis_action_1
       rect:
         serializedVersion: 2
-        x: 321
-        y: 280
-        width: 124
-        height: 190
+        x: 400
+        y: 449
+        width: 339
+        height: 285
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e813f9ea7a55fe30800000000000000
-      internalID: 4536631683603175649
+      spriteID: d64fa493b3beca6b0800000000000000
+      internalID: -5283589623215623059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kari_4sprites (2)_2
+      name: Unikornis_action_2
       rect:
         serializedVersion: 2
-        x: 87
-        y: 29
-        width: 103
-        height: 184
+        x: 37
+        y: 48
+        width: 336
+        height: 286
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ed5013a405af8190800000000000000
-      internalID: -7957960577206166039
+      spriteID: c726be6b1410a2950800000000000000
+      internalID: 6424949200150815356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kari_4sprites (2)_3
+      name: Unikornis_action_3
       rect:
         serializedVersion: 2
-        x: 342
-        y: 38
-        width: 103
-        height: 175
+        x: 398
+        y: 47
+        width: 342
+        height: 292
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37b1554841d3cf0d0800000000000000
-      internalID: -3387765661360645261
+      spriteID: 0264515a899eb4c00800000000000000
+      internalID: 886058593522370080
       vertices: []
       indices: 
       edges: []
@@ -223,10 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kari_4sprites (2)_0: -5321500090543076423
-      Kari_4sprites (2)_1: 4536631683603175649
-      Kari_4sprites (2)_2: -7957960577206166039
-      Kari_4sprites (2)_3: -3387765661360645261
+      Unikornis_action_0: -4763675790410212932
+      Unikornis_action_1: -5283589623215623059
+      Unikornis_action_2: 6424949200150815356
+      Unikornis_action_3: 886058593522370080
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

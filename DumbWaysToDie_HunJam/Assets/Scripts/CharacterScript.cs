@@ -30,6 +30,7 @@ public class CharacterScript : MonoBehaviour, IGravity
         if (Input.GetKeyDown(KeyCode.D))
         {
             CharacterRigidbody2D.linearVelocity = RightSpeed;
+            CharacterAnimator.SetBool("Walking",true);
             if (flying)
             {
                 transform.rotation = Quaternion.Euler(180,0,0);
@@ -37,7 +38,6 @@ public class CharacterScript : MonoBehaviour, IGravity
             else {
                  transform.rotation = new Quaternion(0,0,0f,0);
             }
-            CharacterAnimator.SetBool("Walking",true);
             
         }
         if (Input.GetKeyUp(KeyCode.D))
@@ -48,6 +48,7 @@ public class CharacterScript : MonoBehaviour, IGravity
         if (Input.GetKeyDown(KeyCode.A))
         {
             CharacterRigidbody2D.linearVelocity = LeftSpeed;
+            CharacterAnimator.SetBool("Walking",true);
             if (flying)
             {
                 transform.rotation = Quaternion.Euler(180,180,0);
@@ -55,7 +56,6 @@ public class CharacterScript : MonoBehaviour, IGravity
             else {
                 transform.rotation = new Quaternion(0,180,0,0);
             }
-            CharacterAnimator.SetBool("Walking",true);
         }
         if (Input.GetKeyUp(KeyCode.A))
         {

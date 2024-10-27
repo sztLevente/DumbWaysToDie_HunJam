@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 9a36fddea09406045815b1771c24088f
+guid: a14bb8d8355584a4189e12d66d302584
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8421920354123014621
-    second: Kari_4sprites (1)_0
+      213: -1889799376642585853
+    second: "g\u0151z (1)_0"
   - first:
-      213: 922171760628702286
-    second: Kari_4sprites (1)_1
+      213: -1346793063145111300
+    second: "g\u0151z (1)_1"
   - first:
-      213: -555900240224956559
-    second: Kari_4sprites (1)_2
+      213: -4336604965144320556
+    second: "g\u0151z (1)_2"
   - first:
-      213: 2185602893052136679
-    second: Kari_4sprites (1)_3
+      213: -6672029651892585367
+    second: "g\u0151z (1)_3"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -135,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kari_4sprites (1)_0
+      name: "g\u0151z (1)_0"
       rect:
         serializedVersion: 2
-        x: 86
-        y: 289
-        width: 103
-        height: 181
+        x: 186
+        y: 465
+        width: 156
+        height: 272
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32e9dd52f045f1b80800000000000000
-      internalID: -8421920354123014621
+      spriteID: 30bc672ca7516c5e0800000000000000
+      internalID: -1889799376642585853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kari_4sprites (1)_1
+      name: "g\u0151z (1)_1"
       rect:
         serializedVersion: 2
-        x: 321
-        y: 280
-        width: 124
-        height: 190
+        x: 528
+        y: 495
+        width: 139
+        height: 237
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4c9b2694563ccc00800000000000000
-      internalID: 922171760628702286
+      spriteID: cf0864d38da3f4de0800000000000000
+      internalID: -1346793063145111300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kari_4sprites (1)_2
+      name: "g\u0151z (1)_2"
       rect:
         serializedVersion: 2
-        x: 87
-        y: 29
-        width: 103
-        height: 184
+        x: 178
+        y: 99
+        width: 134
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17f46d24dab0948f0800000000000000
-      internalID: -555900240224956559
+      spriteID: 4d5a061b2c841d3c0800000000000000
+      internalID: -4336604965144320556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kari_4sprites (1)_3
+      name: "g\u0151z (1)_3"
       rect:
         serializedVersion: 2
-        x: 342
-        y: 38
-        width: 103
-        height: 175
+        x: 542
+        y: 122
+        width: 111
+        height: 199
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ec407c5042d45e10800000000000000
-      internalID: 2185602893052136679
+      spriteID: 96cb11ca1603863a0800000000000000
+      internalID: -6672029651892585367
       vertices: []
       indices: 
       edges: []
@@ -236,10 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kari_4sprites (1)_0: -8421920354123014621
-      Kari_4sprites (1)_1: 922171760628702286
-      Kari_4sprites (1)_2: -555900240224956559
-      Kari_4sprites (1)_3: 2185602893052136679
+      "g\u0151z (1)_0": -1889799376642585853
+      "g\u0151z (1)_1": -1346793063145111300
+      "g\u0151z (1)_2": -4336604965144320556
+      "g\u0151z (1)_3": -6672029651892585367
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "g\u0151z_vil\xE1gos_opaque_0": -6233677129669090601
+      "g\u0151z_vil\xE1gos_opaque_1": -7446275504462661832
+      "g\u0151z_vil\xE1gos_opaque_2": 8199135214129656167
+      "g\u0151z_vil\xE1gos_opaque_3": 3759828927720204821
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

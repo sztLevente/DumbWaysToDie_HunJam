@@ -11,6 +11,7 @@ public class GameObjectControllerScript : MonoBehaviour
     public GameObject Elevator;
     public GameObject CurrentRoom;
     public GameObject Character;
+    public bool finishedLoaded = false;
 
     
     
@@ -23,7 +24,7 @@ public class GameObjectControllerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //LoadElevator();
+        LoadElevator();
     }
 
     public void KillCharacter()
@@ -76,6 +77,7 @@ public class GameObjectControllerScript : MonoBehaviour
             {
                 LoadThirdFloor();
             }
+            loaded = false;
         }
     }
 

@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: a5d4fb955929de3458f34997998efb65
+guid: df1351d75bfb5824d9bc513faf94bb8e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3500270397253904119
-    second: "Kari_szemb\u0151l_0"
+      213: -6233677129669090601
+    second: "g\u0151z_vil\xE1gos_opaque_0"
   - first:
-      213: 6406200501221535079
-    second: "Kari_szemb\u0151l_1"
+      213: -7446275504462661832
+    second: "g\u0151z_vil\xE1gos_opaque_1"
   - first:
-      213: -1036574643660790668
-    second: "Kari_szemb\u0151l_2"
+      213: 8199135214129656167
+    second: "g\u0151z_vil\xE1gos_opaque_2"
   - first:
-      213: -856965655104071692
-    second: "Kari_szemb\u0151l_3"
+      213: 3759828927720204821
+    second: "g\u0151z_vil\xE1gos_opaque_3"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Kari_szemb\u0151l_0"
+      name: "g\u0151z_vil\xE1gos_opaque_0"
       rect:
         serializedVersion: 2
-        x: 65
-        y: 512
-        width: 428
-        height: 432
+        x: 186
+        y: 465
+        width: 156
+        height: 272
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9099dd17e9a8c6fc0800000000000000
-      internalID: -3500270397253904119
+      spriteID: 7d2e8919da78d79a0800000000000000
+      internalID: -6233677129669090601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Kari_szemb\u0151l_1"
+      name: "g\u0151z_vil\xE1gos_opaque_1"
       rect:
         serializedVersion: 2
-        x: 577
-        y: 512
-        width: 428
-        height: 432
+        x: 528
+        y: 495
+        width: 139
+        height: 237
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76d2d331a6567e850800000000000000
-      internalID: 6406200501221535079
+      spriteID: 8377fc871e389a890800000000000000
+      internalID: -7446275504462661832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Kari_szemb\u0151l_2"
+      name: "g\u0151z_vil\xE1gos_opaque_2"
       rect:
         serializedVersion: 2
-        x: 65
-        y: 1
-        width: 428
-        height: 432
+        x: 178
+        y: 99
+        width: 134
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 474eb658ad85d91f0800000000000000
-      internalID: -1036574643660790668
+      spriteID: 761389f490e29c170800000000000000
+      internalID: 8199135214129656167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Kari_szemb\u0151l_3"
+      name: "g\u0151z_vil\xE1gos_opaque_3"
       rect:
         serializedVersion: 2
-        x: 577
-        y: 1
-        width: 428
-        height: 438
+        x: 542
+        y: 122
+        width: 111
+        height: 199
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f7dfcee6427b14f0800000000000000
-      internalID: -856965655104071692
+      spriteID: 51a20054d789d2430800000000000000
+      internalID: 3759828927720204821
       vertices: []
       indices: 
       edges: []
@@ -222,11 +222,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "Kari_szemb\u0151l_0": -3500270397253904119
-      "Kari_szemb\u0151l_1": 6406200501221535079
-      "Kari_szemb\u0151l_2": -1036574643660790668
-      "Kari_szemb\u0151l_3": -856965655104071692
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

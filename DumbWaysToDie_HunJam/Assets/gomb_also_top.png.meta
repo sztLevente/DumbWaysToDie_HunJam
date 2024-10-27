@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gomb_also_top_0: 629511961643555746
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

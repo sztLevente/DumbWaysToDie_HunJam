@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gomb_felso_top_0: 480243397370208834
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
